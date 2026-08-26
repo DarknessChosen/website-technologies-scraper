@@ -1,0 +1,120 @@
+{
+    "WordPress": {
+        "html": [
+            "wp-content",
+            "wp-includes",
+            "wp-json",
+            "WordPress"
+        ],
+
+        "meta": [
+            "generator: WordPress"
+        ]
+    },
+
+    "Nginx": {
+        "headers": [
+            "server: nginx"
+        ]
+    },
+
+    "Google Tag Manager": {
+        "html": [
+            "googletagmanager.com/gtm.js"
+        ],
+
+        "scripts": [
+            "googletagmanager.com/gtm.js"
+        ]
+    },
+
+    "Google Analytics": {
+        "html": [
+            "googletagmanager.com/gtag/js"
+        ],
+
+        "scripts": [
+            "googletagmanager.com/gtag/js"
+        ]
+    },
+
+    "Apache": {
+        "headers": [
+            "server: Apache"
+        ]
+    },
+
+    "Cloudflare": {
+        "headers": [
+            "server: cloudflare",
+            "cf-ray:"
+        ]
+    },
+
+    "Shopify": {
+        "html": [
+            "cdn.shopify.com",
+            "Shopify.theme"
+        ],
+        "scripts": [
+            "cdn.shopify.com"
+        ]
+    },
+
+    "Next.js": {
+        "html": [
+            "/_next/static/"
+        ],
+        "scripts": [
+            "/_next/static/"
+        ]
+    },
+
+    "Nuxt": {
+        "html": [
+            "/_nuxt/"
+        ],
+        "scripts": [
+            "/_nuxt/"
+        ]
+    },
+
+    "jQuery": {
+        "scripts": [
+            "jquery.min.js",
+            "jquery.js"
+        ]
+    },
+
+    "Bootstrap": {
+        "scripts": [
+            "bootstrap.min.js",
+            "bootstrap.bundle.min.js"
+        ],
+        "links": [
+            "bootstrap.min.css"
+        ]
+    },
+
+    "Hotjar": {
+        "html": [
+            "static.hotjar.com",
+            "hotjar.com/c/hotjar-"
+        ],
+        "scripts": [
+            "static.hotjar.com"
+        ]
+    },
+
+    "Sentry": {
+        "scripts": [
+            "browser.sentry-cdn.com"
+        ]
+    },
+
+    "Stripe": {
+        "scripts": [
+            "js.stripe.com"
+        ]
+    }
+}
