@@ -1,0 +1,80 @@
+{
+    "summary": {
+        "domains_processed": 5,
+        "successful_domains": 4,
+        "failed_domains": 1,
+        "total_technologies_identified": 10,
+        "unique_technologies_identified": 6
+    },
+    "websites": [
+        {
+            "domain": "https://example.com",
+            "status_code": 200,
+            "technologies": {
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ]
+            }
+        },
+        {
+            "domain": "https://www.python.org",
+            "status_code": 200,
+            "technologies": {
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://this-domain-should-not-exist-987654321.invalid",
+            "status_code": null,
+            "error": "[Errno 11001] getaddrinfo failed"
+        },
+        {
+            "domain": "https://wordpress.org",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'"
+                ],
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://www.greenmangaming.com/blog/all-the-resident-evil-games-in-chronological-order/",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'"
+                ],
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Bootstrap": [
+                    "scripts contains 'bootstrap.bundle.min.js'",
+                    "links contains 'bootstrap.min.css'"
+                ]
+            }
+        }
+    ]
+}
