@@ -9,6 +9,10 @@
 
         "meta": [
             "generator: WordPress"
+        ],
+
+        "links": [
+            "gmpg.org/xfn/11"
         ]
     },
 
@@ -25,6 +29,10 @@
 
         "scripts": [
             "googletagmanager.com/gtm.js"
+        ],
+
+        "links": [
+            "googletagmanager.com"
         ]
     },
 
@@ -56,7 +64,14 @@
             "cdn.shopify.com",
             "Shopify.theme"
         ],
+
         "scripts": [
+            "cdn.shopify.com"
+        ],
+
+        "links": [
+            "monorail-edge.shopifysvc.com",
+            "fonts.shopifycdn.com",
             "cdn.shopify.com"
         ]
     },
@@ -65,6 +80,7 @@
         "html": [
             "/_next/static/"
         ],
+
         "scripts": [
             "/_next/static/"
         ]
@@ -74,6 +90,7 @@
         "html": [
             "/_nuxt/"
         ],
+
         "scripts": [
             "/_nuxt/"
         ]
@@ -82,7 +99,8 @@
     "jQuery": {
         "scripts": [
             "jquery.min.js",
-            "jquery.js"
+            "jquery.js",
+            "code.jquery.com"
         ]
     },
 
@@ -91,6 +109,7 @@
             "bootstrap.min.js",
             "bootstrap.bundle.min.js"
         ],
+
         "links": [
             "bootstrap.min.css"
         ]
@@ -101,6 +120,7 @@
             "static.hotjar.com",
             "hotjar.com/c/hotjar-"
         ],
+
         "scripts": [
             "static.hotjar.com"
         ]
@@ -115,6 +135,175 @@
     "Stripe": {
         "scripts": [
             "js.stripe.com"
+        ]
+    },
+    
+    "Google Fonts": {
+        "links": [
+            "fonts.googleapis.com",
+            "fonts.gstatic.com"
+        ]
+    },
+
+    "Wix": {
+        "scripts": [
+            "static.parastorage.com"
+        ],
+
+        "links": [
+            "siteassets.parastorage.com",
+            "static.parastorage.com",
+            "static.wixstatic.com"
+        ]
+    },
+
+    "Squarespace": {
+        "scripts": [
+            "assets.squarespace.com",
+            "definitions.sqspcdn.com",
+            "static1.squarespace.com"
+        ],
+
+        "links": [
+            "images.squarespace-cdn.com",
+            "static1.squarespace.com",
+            "squarespace-cdn.com",
+            "assets.squarespace.com",
+            "definitions.sqspcdn.com"
+        ]
+    },
+
+    "Adobe Fonts": {
+        "scripts": [
+            "use.typekit.net"
+        ],
+
+        "links": [
+            "use.typekit.net",
+            "p.typekit.net"
+        ]
+    },
+
+    "Google Maps": {
+        "scripts": [
+            "maps.googleapis.com"
+        ],
+
+        "links": [
+            "maps.googleapis.com"
+        ]
+    },
+
+    "Font Awesome": {
+        "scripts": [
+            "kit.fontawesome.com"
+        ]
+    },
+
+    "jsDelivr": {
+        "scripts": [
+            "cdn.jsdelivr.net"
+        ],
+
+        "links": [
+            "cdn.jsdelivr.net"
+        ]
+    },
+
+    "cdnjs": {
+        "scripts": [
+            "cdnjs.cloudflare.com"
+        ],
+
+        "links": [
+            "cdnjs.cloudflare.com"
+        ]
+    },
+    
+    "Weebly": {
+        "scripts": [
+            "editmysite.com"
+        ],
+
+        "links": [
+            "editmysite.com"
+        ]
+    },
+
+    "Webflow": {
+        "scripts": [
+            "cdn.prod.website-files.com"
+        ],
+
+        "links": [
+            "cdn.prod.website-files.com"
+        ]
+    },
+
+    "Cloudflare Turnstile": {
+        "scripts": [
+            "challenges.cloudflare.com"
+        ]
+    },
+
+    "Jetpack Stats": {
+        "scripts": [
+            "stats.wp.com"
+        ],
+
+        "links": [
+            "stats.wp.com"
+        ]
+    },
+
+    "Jetpack Site Accelerator": {
+        "links": [
+            "i0.wp.com",
+            "i1.wp.com",
+            "i2.wp.com"
+        ]
+    },
+
+    "OneTrust": {
+    "scripts": [
+            "onetrust.com",
+            "cdn.cookielaw.org"
+        ]
+    },
+
+    "CookieYes": {
+        "scripts": [
+            "cdn-cookieyes.com"
+        ]
+    },
+
+    "Adobe Experience Platform Tags": {
+        "scripts": [
+            "assets.adobedtm.com"
+        ]
+    },
+
+    "Cloudflare Web Analytics": {
+        "scripts": [
+            "static.cloudflareinsights.com"
+        ]
+    },
+
+    "Google reCAPTCHA": {
+        "scripts": [
+            "www.google.com/recaptcha/"
+        ]
+    },
+
+    "AMP": {
+        "scripts": [
+            "cdn.ampproject.org"
+        ]
+    },
+    
+    "Cookiebot": {
+        "scripts": [
+            "consent.cookiebot.com"
         ]
     }
 }

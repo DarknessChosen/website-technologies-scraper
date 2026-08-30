@@ -1,26 +1,340 @@
 {
     "summary": {
-        "domains_processed": 5,
-        "successful_domains": 4,
-        "failed_domains": 1,
-        "total_technologies_identified": 10,
-        "unique_technologies_identified": 6
+        "domains_processed": 200,
+        "successful_domains": 137,
+        "failed_domains": 63,
+        "total_technologies_identified": 457,
+        "unique_technologies_identified": 33
     },
     "websites": [
         {
-            "domain": "https://example.com",
+            "domain": "https://jcmobilecigars.com",
+            "status_code": 200,
+            "technologies": {}
+        },
+        {
+            "domain": "https://somalidisablesupport.com",
             "status_code": 200,
             "technologies": {
-                "Cloudflare": [
-                    "headers contains 'server: cloudflare'",
-                    "headers contains 'cf-ray:'"
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ],
+                "Jetpack Stats": [
+                    "scripts contains 'stats.wp.com'",
+                    "links contains 'stats.wp.com'"
                 ]
             }
         },
         {
-            "domain": "https://www.python.org",
+            "domain": "https://yourfamilylines.com",
+            "status_code": null,
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://szentkristofudvarhaz.hu",
             "status_code": 200,
             "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'WordPress'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://disneystore.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "OneTrust": [
+                    "scripts contains 'cdn.cookielaw.org'"
+                ],
+                "Adobe Experience Platform Tags": [
+                    "scripts contains 'assets.adobedtm.com'"
+                ],
+                "Google reCAPTCHA": [
+                    "scripts contains 'www.google.com/recaptcha/'"
+                ]
+            }
+        },
+        {
+            "domain": "https://chavchavadze-m2-41-tbilisi.booked.net",
+            "status_code": 404,
+            "error": "Not Found"
+        },
+        {
+            "domain": "https://trs-energycontrol.de",
+            "status_code": 200,
+            "technologies": {
+                "Sentry": [
+                    "scripts contains 'browser.sentry-cdn.com'"
+                ],
+                "Wix": [
+                    "scripts contains 'static.parastorage.com'",
+                    "links contains 'siteassets.parastorage.com'",
+                    "links contains 'static.parastorage.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://xn--kleoghvidevareservice-qfc.dk",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://gogroupauto.com",
+            "status_code": null,
+            "error": "[WinError 10061] No connection could be made because the target machine actively refused it"
+        },
+        {
+            "domain": "https://231selfstorage.com",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://globalrn.com",
+            "status_code": 526,
+            "error": "<none>"
+        },
+        {
+            "domain": "https://cytofastmed.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Bootstrap": [
+                    "scripts contains 'bootstrap.min.js'",
+                    "links contains 'bootstrap.min.css'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ],
+                "Google Maps": [
+                    "scripts contains 'maps.googleapis.com'",
+                    "links contains 'maps.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://5starremoval.weebly.com",
+            "status_code": 404,
+            "error": "Not Found"
+        },
+        {
+            "domain": "https://coenzwezerijnen.nu",
+            "status_code": null,
+            "error": "timed out"
+        },
+        {
+            "domain": "https://gutendorf.ru",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ],
+                "Jetpack Stats": [
+                    "scripts contains 'stats.wp.com'",
+                    "links contains 'stats.wp.com'"
+                ],
+                "Google reCAPTCHA": [
+                    "scripts contains 'www.google.com/recaptcha/'"
+                ]
+            }
+        },
+        {
+            "domain": "https://katesworldtravel.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "Google Tag Manager": [
+                    "links contains 'googletagmanager.com'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://3xd.co.uk",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://gapconstructionwi.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'WordPress'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "Sentry": [
+                    "scripts contains 'browser.sentry-cdn.com'"
+                ],
+                "Wix": [
+                    "scripts contains 'static.parastorage.com'",
+                    "links contains 'siteassets.parastorage.com'",
+                    "links contains 'static.parastorage.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://imgs.co.jp",
+            "status_code": 200,
+            "technologies": {
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://clotting-guide.online",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ],
+                "Jetpack Stats": [
+                    "scripts contains 'stats.wp.com'"
+                ],
+                "Jetpack Site Accelerator": [
+                    "links contains 'i0.wp.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://38inspect.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://newbeaverborough.org",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
                 "Nginx": [
                     "headers contains 'server: nginx'"
                 ],
@@ -30,12 +344,1435 @@
             }
         },
         {
-            "domain": "https://this-domain-should-not-exist-987654321.invalid",
-            "status_code": null,
-            "error": "[Errno 11001] getaddrinfo failed"
+            "domain": "https://largsbaychiropractic.com.au",
+            "status_code": 200,
+            "technologies": {
+                "Squarespace": [
+                    "scripts contains 'assets.squarespace.com'",
+                    "scripts contains 'definitions.sqspcdn.com'",
+                    "scripts contains 'static1.squarespace.com'",
+                    "links contains 'images.squarespace-cdn.com'",
+                    "links contains 'static1.squarespace.com'",
+                    "links contains 'squarespace-cdn.com'",
+                    "links contains 'assets.squarespace.com'",
+                    "links contains 'definitions.sqspcdn.com'"
+                ]
+            }
         },
         {
-            "domain": "https://wordpress.org",
+            "domain": "https://rsthealthcare.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'WordPress'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://dioxoxigenio.com.br",
+            "status_code": null,
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'dioxoxigenio.com.br'. (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://doringpoort.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://fsbwyoming.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'",
+                    "links contains 'googletagmanager.com'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'",
+                    "scripts contains 'jquery.js'"
+                ],
+                "Cloudflare Turnstile": [
+                    "scripts contains 'challenges.cloudflare.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://msc-manching.de",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Bootstrap": [
+                    "scripts contains 'bootstrap.min.js'",
+                    "links contains 'bootstrap.min.css'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://sgsextremaratio.it",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'WordPress'"
+                ],
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "Nuxt": [
+                    "html contains '/_nuxt/'",
+                    "scripts contains '/_nuxt/'"
+                ]
+            }
+        },
+        {
+            "domain": "https://coastwidemechanicalcentralcoast.com.au",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://amourfinder.com",
+            "status_code": 200,
+            "technologies": {}
+        },
+        {
+            "domain": "https://lojatatical.com.br",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'WordPress'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://jobresourcecentre.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Bootstrap": [
+                    "scripts contains 'bootstrap.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ],
+                "Google Maps": [
+                    "scripts contains 'maps.googleapis.com'",
+                    "links contains 'maps.googleapis.com'"
+                ],
+                "Google reCAPTCHA": [
+                    "scripts contains 'www.google.com/recaptcha/'"
+                ]
+            }
+        },
+        {
+            "domain": "https://ferienwohnung-kastell.de",
+            "status_code": 200,
+            "technologies": {}
+        },
+        {
+            "domain": "https://253media.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'WordPress'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ],
+                "Adobe Fonts": [
+                    "scripts contains 'use.typekit.net'"
+                ],
+                "jsDelivr": [
+                    "scripts contains 'cdn.jsdelivr.net'"
+                ],
+                "cdnjs": [
+                    "scripts contains 'cdnjs.cloudflare.com'"
+                ],
+                "Webflow": [
+                    "scripts contains 'cdn.prod.website-files.com'",
+                    "links contains 'cdn.prod.website-files.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://velvety.eu",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google reCAPTCHA": [
+                    "scripts contains 'www.google.com/recaptcha/'"
+                ]
+            }
+        },
+        {
+            "domain": "https://doortodoororganics.com",
+            "status_code": 200,
+            "technologies": {
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "cdnjs": [
+                    "links contains 'cdnjs.cloudflare.com'"
+                ],
+                "AMP": [
+                    "scripts contains 'cdn.ampproject.org'"
+                ]
+            }
+        },
+        {
+            "domain": "https://kentpropertyrenovations.co.uk",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ]
+            }
+        },
+        {
+            "domain": "https://fisherinvestments.com",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://rionecontrastanga.net",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'",
+                    "scripts contains 'jquery.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://stwannas.com",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://empresasori.com",
+            "status_code": null,
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://familybroker.cz",
+            "status_code": 200,
+            "technologies": {
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ]
+            }
+        },
+        {
+            "domain": "https://genesisny.net",
+            "status_code": 200,
+            "technologies": {}
+        },
+        {
+            "domain": "https://5w.design",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://huberautomotive.com",
+            "status_code": 200,
+            "technologies": {
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'",
+                    "links contains 'googletagmanager.com'"
+                ],
+                "Bootstrap": [
+                    "scripts contains 'bootstrap.min.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://marien-apotheke-grefrath-app.de",
+            "status_code": 200,
+            "technologies": {}
+        },
+        {
+            "domain": "https://centreconsiliereavort.ro",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://infoaboutnetwork.com",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://11853prospecthill.com",
+            "status_code": 200,
+            "technologies": {
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ],
+                "jsDelivr": [
+                    "scripts contains 'cdn.jsdelivr.net'"
+                ],
+                "cdnjs": [
+                    "scripts contains 'cdnjs.cloudflare.com'",
+                    "links contains 'cdnjs.cloudflare.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://passwordstore.it",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'"
+                ],
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://avocatalinamanciu.ro",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Google Tag Manager": [
+                    "links contains 'googletagmanager.com'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://abcdpinturas.com.br",
+            "status_code": null,
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'abcdpinturas.com.br'. (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://dssfla.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'"
+                ],
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ],
+                "Jetpack Stats": [
+                    "scripts contains 'stats.wp.com'",
+                    "links contains 'stats.wp.com'"
+                ],
+                "Jetpack Site Accelerator": [
+                    "links contains 'i0.wp.com'"
+                ],
+                "Google reCAPTCHA": [
+                    "scripts contains 'www.google.com/recaptcha/'"
+                ]
+            }
+        },
+        {
+            "domain": "https://weducars.co.za",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'"
+                ],
+                "Google Tag Manager": [
+                    "links contains 'googletagmanager.com'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://4stonebuildings.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Adobe Fonts": [
+                    "links contains 'use.typekit.net'"
+                ],
+                "Font Awesome": [
+                    "scripts contains 'kit.fontawesome.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://maniaupiekszania.pl",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://sprucemeadowsmd.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://natedea.co.uk",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://loizillon.com",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://haus-muehlenfeld-pommerby.de",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://arenaskolor.se",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://boken.ch",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://restwellstreetmedicalcentre.com.au",
+            "status_code": 200,
+            "technologies": {
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Bootstrap": [
+                    "scripts contains 'bootstrap.min.js'",
+                    "links contains 'bootstrap.min.css'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://den-a-sha.co.jp",
+            "status_code": null,
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'den-a-sha.co.jp'. (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://365outsource.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ],
+                "Adobe Fonts": [
+                    "links contains 'use.typekit.net'"
+                ],
+                "Cloudflare Turnstile": [
+                    "scripts contains 'challenges.cloudflare.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://aida-cruises.at",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://lets.gr",
+            "status_code": 200,
+            "technologies": {
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ]
+            }
+        },
+        {
+            "domain": "https://skywayrestaurants.net",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://2020wealthadvisory.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://hnafirm.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'"
+                ],
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.js'"
+                ],
+                "Bootstrap": [
+                    "scripts contains 'bootstrap.bundle.min.js'",
+                    "links contains 'bootstrap.min.css'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ],
+                "Font Awesome": [
+                    "scripts contains 'kit.fontawesome.com'"
+                ],
+                "jsDelivr": [
+                    "scripts contains 'cdn.jsdelivr.net'",
+                    "links contains 'cdn.jsdelivr.net'"
+                ],
+                "cdnjs": [
+                    "scripts contains 'cdnjs.cloudflare.com'",
+                    "links contains 'cdnjs.cloudflare.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://itsolutions24.pl",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://aaice.net",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://ecolab.com",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://mehmetefendimacedonia.com",
+            "status_code": 200,
+            "technologies": {
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://laplumedelisibilite.fr",
+            "status_code": 200,
+            "technologies": {
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "jQuery": [
+                    "scripts contains 'code.jquery.com'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://2ldm.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Google Tag Manager": [
+                    "links contains 'googletagmanager.com'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://westchesterpointechiro.com",
+            "status_code": 200,
+            "technologies": {
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://cei-expertises.fr",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.gstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://seringa-safaris.com",
+            "status_code": 200,
+            "technologies": {
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Bootstrap": [
+                    "scripts contains 'bootstrap.min.js'",
+                    "links contains 'bootstrap.min.css'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://1planettechnologies.weebly.com",
+            "status_code": 200,
+            "technologies": {
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Weebly": [
+                    "scripts contains 'editmysite.com'",
+                    "links contains 'editmysite.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://soziale-dreigliederung.de",
+            "status_code": null,
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://premierhomeremodeling.net",
+            "status_code": 200,
+            "technologies": {
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "Next.js": [
+                    "html contains '/_next/static/'",
+                    "scripts contains '/_next/static/'"
+                ]
+            }
+        },
+        {
+            "domain": "https://bas-ingenieria.cl",
+            "status_code": 200,
+            "technologies": {
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "Bootstrap": [
+                    "scripts contains 'bootstrap.bundle.min.js'",
+                    "links contains 'bootstrap.min.css'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://produkttheater.de",
+            "status_code": null,
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'produkttheater.de'. (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://unnames.com",
+            "status_code": 200,
+            "technologies": {
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "Shopify": [
+                    "html contains 'cdn.shopify.com'",
+                    "html contains 'Shopify.theme'",
+                    "scripts contains 'cdn.shopify.com'",
+                    "links contains 'monorail-edge.shopifysvc.com'",
+                    "links contains 'fonts.shopifycdn.com'"
+                ],
+                "jQuery": [
+                    "scripts contains 'code.jquery.com'"
+                ],
+                "jsDelivr": [
+                    "scripts contains 'cdn.jsdelivr.net'",
+                    "links contains 'cdn.jsdelivr.net'"
+                ]
+            }
+        },
+        {
+            "domain": "https://handycars.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'"
+                ],
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'",
+                    "scripts contains 'jquery.js'"
+                ],
+                "jsDelivr": [
+                    "scripts contains 'cdn.jsdelivr.net'",
+                    "links contains 'cdn.jsdelivr.net'"
+                ]
+            }
+        },
+        {
+            "domain": "https://antikebau.de",
+            "status_code": 500,
+            "error": "Internal Server Error"
+        },
+        {
+            "domain": "https://3strandschurch.org",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://alabamabuildingcontractor.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.gstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://resourceservicesolutions.com",
+            "status_code": 200,
+            "technologies": {
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'code.jquery.com'"
+                ],
+                "jsDelivr": [
+                    "scripts contains 'cdn.jsdelivr.net'",
+                    "links contains 'cdn.jsdelivr.net'"
+                ]
+            }
+        },
+        {
+            "domain": "https://skywardspeech.com.au",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://sevecoitalia.com",
+            "status_code": 200,
+            "technologies": {
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ],
+                "Font Awesome": [
+                    "scripts contains 'kit.fontawesome.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://nielsbirk.dk",
+            "status_code": 200,
+            "technologies": {
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ],
+                "Cookiebot": [
+                    "scripts contains 'consent.cookiebot.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://branson-connection.com",
+            "status_code": null,
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://phucankhanggroup.com",
+            "status_code": 200,
+            "technologies": {
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "jsDelivr": [
+                    "scripts contains 'cdn.jsdelivr.net'",
+                    "links contains 'cdn.jsdelivr.net'"
+                ]
+            }
+        },
+        {
+            "domain": "https://roccofortehotels.cn",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://everhartsoutdoor.com",
+            "status_code": null,
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.everhartsoutdoor.com'. (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://europeaninns.com",
+            "status_code": 200,
+            "technologies": {
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ]
+            }
+        },
+        {
+            "domain": "https://massageforworldpeace.com",
+            "status_code": 200,
+            "technologies": {
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ]
+            }
+        },
+        {
+            "domain": "https://cultivateventures.co.nz",
+            "status_code": 200,
+            "technologies": {
+                "Squarespace": [
+                    "scripts contains 'assets.squarespace.com'",
+                    "scripts contains 'definitions.sqspcdn.com'",
+                    "scripts contains 'static1.squarespace.com'",
+                    "links contains 'images.squarespace-cdn.com'",
+                    "links contains 'static1.squarespace.com'",
+                    "links contains 'squarespace-cdn.com'",
+                    "links contains 'assets.squarespace.com'",
+                    "links contains 'definitions.sqspcdn.com'"
+                ],
+                "Adobe Fonts": [
+                    "scripts contains 'use.typekit.net'",
+                    "links contains 'use.typekit.net'",
+                    "links contains 'p.typekit.net'"
+                ]
+            }
+        },
+        {
+            "domain": "https://amaronbattery.in",
+            "status_code": null,
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'amaronbattery.in'. (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://radxmobile.com",
+            "status_code": 200,
+            "technologies": {
+                "Sentry": [
+                    "scripts contains 'browser.sentry-cdn.com'"
+                ],
+                "Wix": [
+                    "scripts contains 'static.parastorage.com'",
+                    "links contains 'siteassets.parastorage.com'",
+                    "links contains 'static.parastorage.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://2-com.net",
+            "status_code": 200,
+            "technologies": {
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://3bsexcavating.com",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://weissbauchpapageien.de",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://959marine.com",
+            "status_code": 200,
+            "technologies": {
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "Weebly": [
+                    "scripts contains 'editmysite.com'",
+                    "links contains 'editmysite.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://hansis-knusperhendl-foodtruck.eatbu.com",
+            "status_code": 200,
+            "technologies": {
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://broganlmt.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'WordPress'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "Sentry": [
+                    "scripts contains 'browser.sentry-cdn.com'"
+                ],
+                "Wix": [
+                    "scripts contains 'static.parastorage.com'",
+                    "links contains 'siteassets.parastorage.com'",
+                    "links contains 'static.parastorage.com'",
+                    "links contains 'static.wixstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://juanmunozhomesmart.com",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://buchhaltungsservice-koenig.de",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://solvos.nl",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'",
+                    "scripts contains 'jquery.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://261welfarefund.com",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://costa-coffee.be",
+            "status_code": 200,
+            "technologies": {
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "OneTrust": [
+                    "scripts contains 'onetrust.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://startravelcompany.com",
+            "status_code": null,
+            "error": "The read operation timed out"
+        },
+        {
+            "domain": "https://disinfestazioniepiscine.it",
             "status_code": 200,
             "technologies": {
                 "WordPress": [
@@ -50,11 +1787,17 @@
                 ],
                 "Google Tag Manager": [
                     "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google reCAPTCHA": [
+                    "scripts contains 'www.google.com/recaptcha/'"
                 ]
             }
         },
         {
-            "domain": "https://www.greenmangaming.com/blog/all-the-resident-evil-games-in-chronological-order/",
+            "domain": "https://lscms.org",
             "status_code": 200,
             "technologies": {
                 "WordPress": [
@@ -64,8 +1807,8 @@
                     "html contains 'WordPress'",
                     "meta contains 'generator: WordPress'"
                 ],
-                "Nginx": [
-                    "headers contains 'server: nginx'"
+                "Apache": [
+                    "headers contains 'server: Apache'"
                 ],
                 "jQuery": [
                     "scripts contains 'jquery.min.js'"
@@ -73,6 +1816,1142 @@
                 "Bootstrap": [
                     "scripts contains 'bootstrap.bundle.min.js'",
                     "links contains 'bootstrap.min.css'"
+                ]
+            }
+        },
+        {
+            "domain": "https://3dwealthadvisory.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.gstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://jackwills.com",
+            "status_code": 200,
+            "technologies": {
+                "Next.js": [
+                    "html contains '/_next/static/'",
+                    "scripts contains '/_next/static/'"
+                ]
+            }
+        },
+        {
+            "domain": "https://nevsproductions.com",
+            "status_code": null,
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.nevsproductions.com'. (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://kande-hoikuen.ed.jp",
+            "status_code": 200,
+            "technologies": {
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://orifoodsco.com",
+            "status_code": 200,
+            "technologies": {
+                "Squarespace": [
+                    "scripts contains 'assets.squarespace.com'",
+                    "scripts contains 'definitions.sqspcdn.com'",
+                    "scripts contains 'static1.squarespace.com'",
+                    "links contains 'images.squarespace-cdn.com'",
+                    "links contains 'static1.squarespace.com'",
+                    "links contains 'squarespace-cdn.com'",
+                    "links contains 'assets.squarespace.com'",
+                    "links contains 'definitions.sqspcdn.com'"
+                ],
+                "Adobe Fonts": [
+                    "scripts contains 'use.typekit.net'",
+                    "links contains 'use.typekit.net'",
+                    "links contains 'p.typekit.net'"
+                ]
+            }
+        },
+        {
+            "domain": "https://deerfieldbeachautomall.com",
+            "status_code": 200,
+            "technologies": {
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'",
+                    "links contains 'googletagmanager.com'"
+                ],
+                "Bootstrap": [
+                    "scripts contains 'bootstrap.min.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://insieme.stanford.edu",
+            "status_code": 200,
+            "technologies": {
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "cdnjs": [
+                    "links contains 'cdnjs.cloudflare.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://layer7innovations.ca",
+            "status_code": 200,
+            "technologies": {
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Bootstrap": [
+                    "scripts contains 'bootstrap.min.js'",
+                    "links contains 'bootstrap.min.css'"
+                ],
+                "cdnjs": [
+                    "scripts contains 'cdnjs.cloudflare.com'",
+                    "links contains 'cdnjs.cloudflare.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://makpharma-eg.com",
+            "status_code": 200,
+            "technologies": {}
+        },
+        {
+            "domain": "https://ejc-courtage-assurances.fr",
+            "status_code": 200,
+            "technologies": {
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://ferrateoxidant.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://oakwell.vet",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://mysterion.hr",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.js'"
+                ],
+                "Bootstrap": [
+                    "scripts contains 'bootstrap.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ],
+                "Google reCAPTCHA": [
+                    "scripts contains 'www.google.com/recaptcha/'"
+                ]
+            }
+        },
+        {
+            "domain": "https://howellmotors.com",
+            "status_code": null,
+            "error": "[WinError 10061] No connection could be made because the target machine actively refused it"
+        },
+        {
+            "domain": "https://lorenz-baumarkt.de",
+            "status_code": 200,
+            "technologies": {
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ]
+            }
+        },
+        {
+            "domain": "https://eclairage-solaire-occitanie.com",
+            "status_code": 404,
+            "error": "Not Found"
+        },
+        {
+            "domain": "https://cmc01village.com",
+            "status_code": 404,
+            "error": "Not Found"
+        },
+        {
+            "domain": "https://maiquotes.net",
+            "status_code": null,
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'maiquotes.net'. (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://cmresolutions.com",
+            "status_code": null,
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'cmresolutions.com'. (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://wglchurch.com",
+            "status_code": null,
+            "error": "[Errno 11001] getaddrinfo failed"
+        },
+        {
+            "domain": "https://nwmotorinn.com",
+            "status_code": null,
+            "error": "[Errno 11001] getaddrinfo failed"
+        },
+        {
+            "domain": "https://dorpsbelangen.nu",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ],
+                "Google reCAPTCHA": [
+                    "scripts contains 'www.google.com/recaptcha/'"
+                ]
+            }
+        },
+        {
+            "domain": "https://littlerockafamily.de",
+            "status_code": null,
+            "error": "[Errno 11001] getaddrinfo failed"
+        },
+        {
+            "domain": "https://evelynanders.com",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://domekvefaru.com",
+            "status_code": 200,
+            "technologies": {
+                "Google Fonts": [
+                    "links contains 'fonts.gstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://sdmdjentertainment.com",
+            "status_code": 200,
+            "technologies": {}
+        },
+        {
+            "domain": "https://ideenhunger.com",
+            "status_code": 200,
+            "technologies": {
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "Hotjar": [
+                    "html contains 'static.hotjar.com'",
+                    "html contains 'hotjar.com/c/hotjar-'"
+                ],
+                "Webflow": [
+                    "scripts contains 'cdn.prod.website-files.com'",
+                    "links contains 'cdn.prod.website-files.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://jenniferbacksteininteriors.com",
+            "status_code": 200,
+            "technologies": {
+                "Squarespace": [
+                    "scripts contains 'assets.squarespace.com'",
+                    "scripts contains 'definitions.sqspcdn.com'",
+                    "scripts contains 'static1.squarespace.com'",
+                    "links contains 'images.squarespace-cdn.com'",
+                    "links contains 'static1.squarespace.com'",
+                    "links contains 'squarespace-cdn.com'",
+                    "links contains 'assets.squarespace.com'",
+                    "links contains 'definitions.sqspcdn.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://elcolegiocongresosyrestaurante.com",
+            "status_code": 200,
+            "technologies": {
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ]
+            }
+        },
+        {
+            "domain": "https://northshoremacnut.com",
+            "status_code": 200,
+            "technologies": {
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "Sentry": [
+                    "scripts contains 'browser.sentry-cdn.com'"
+                ],
+                "Wix": [
+                    "scripts contains 'static.parastorage.com'",
+                    "links contains 'siteassets.parastorage.com'",
+                    "links contains 'static.parastorage.com'",
+                    "links contains 'static.wixstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://powercleaning.services",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'"
+                ],
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://stoperbis.pl",
+            "status_code": 200,
+            "technologies": {
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://verticalcommunitychurch.com",
+            "status_code": null,
+            "error": "[Errno 11001] getaddrinfo failed"
+        },
+        {
+            "domain": "https://gitesducharmois.fr",
+            "status_code": 429,
+            "error": "Too Many Requests"
+        },
+        {
+            "domain": "https://allegrocreditbeta.com",
+            "status_code": 200,
+            "technologies": {
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ],
+                "Font Awesome": [
+                    "scripts contains 'kit.fontawesome.com'"
+                ],
+                "cdnjs": [
+                    "scripts contains 'cdnjs.cloudflare.com'",
+                    "links contains 'cdnjs.cloudflare.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://hoffmaninstitute.co.uk",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Bootstrap": [
+                    "links contains 'bootstrap.min.css'"
+                ],
+                "Google Maps": [
+                    "scripts contains 'maps.googleapis.com'",
+                    "links contains 'maps.googleapis.com'"
+                ],
+                "CookieYes": [
+                    "scripts contains 'cdn-cookieyes.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://a3sec.com",
+            "status_code": 200,
+            "technologies": {
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "Hotjar": [
+                    "html contains 'static.hotjar.com'",
+                    "html contains 'hotjar.com/c/hotjar-'"
+                ],
+                "jsDelivr": [
+                    "scripts contains 'cdn.jsdelivr.net'",
+                    "links contains 'cdn.jsdelivr.net'"
+                ]
+            }
+        },
+        {
+            "domain": "https://concrete-fitness.edan.io",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://nicholsonchiro.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.js'"
+                ],
+                "Google reCAPTCHA": [
+                    "scripts contains 'www.google.com/recaptcha/'"
+                ]
+            }
+        },
+        {
+            "domain": "https://la-residenza-del-principe-rome-it.booked.net",
+            "status_code": 404,
+            "error": "Not Found"
+        },
+        {
+            "domain": "https://jonesbuickgmc.com",
+            "status_code": 200,
+            "technologies": {
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "Cloudflare Web Analytics": [
+                    "scripts contains 'static.cloudflareinsights.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://xn--jobvrkstedet-9cb.nu",
+            "status_code": 455,
+            "error": ""
+        },
+        {
+            "domain": "https://appelpsychotherapy.com",
+            "status_code": 200,
+            "technologies": {
+                "Sentry": [
+                    "scripts contains 'browser.sentry-cdn.com'"
+                ],
+                "Wix": [
+                    "scripts contains 'static.parastorage.com'",
+                    "links contains 'siteassets.parastorage.com'",
+                    "links contains 'static.parastorage.com'",
+                    "links contains 'static.wixstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://brucebournesold.com",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://pcb-cpb.com",
+            "status_code": 429,
+            "error": "Too Many Requests"
+        },
+        {
+            "domain": "https://chiantifiorentino.it",
+            "status_code": 200,
+            "technologies": {}
+        },
+        {
+            "domain": "https://11thhourracing.org",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'"
+                ],
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://miratrade.com.tr",
+            "status_code": 200,
+            "technologies": {
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ]
+            }
+        },
+        {
+            "domain": "https://freo.com.au",
+            "status_code": 200,
+            "technologies": {
+                "jQuery": [
+                    "scripts contains 'jquery.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://fluxar.com.ar",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ],
+                "Google reCAPTCHA": [
+                    "scripts contains 'www.google.com/recaptcha/'"
+                ]
+            }
+        },
+        {
+            "domain": "https://redpants.jp",
+            "status_code": 200,
+            "technologies": {
+                "Squarespace": [
+                    "scripts contains 'assets.squarespace.com'",
+                    "scripts contains 'definitions.sqspcdn.com'",
+                    "scripts contains 'static1.squarespace.com'",
+                    "links contains 'images.squarespace-cdn.com'",
+                    "links contains 'static1.squarespace.com'",
+                    "links contains 'squarespace-cdn.com'",
+                    "links contains 'assets.squarespace.com'",
+                    "links contains 'definitions.sqspcdn.com'"
+                ],
+                "Adobe Fonts": [
+                    "scripts contains 'use.typekit.net'",
+                    "links contains 'use.typekit.net'",
+                    "links contains 'p.typekit.net'"
+                ]
+            }
+        },
+        {
+            "domain": "https://bata.edu.hu",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://3-energie-klaas.de",
+            "status_code": 200,
+            "technologies": {
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ]
+            }
+        },
+        {
+            "domain": "https://labdemo.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'"
+                ],
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ],
+                "jsDelivr": [
+                    "scripts contains 'cdn.jsdelivr.net'",
+                    "links contains 'cdn.jsdelivr.net'"
+                ]
+            }
+        },
+        {
+            "domain": "https://1ststopsupply.com",
+            "status_code": null,
+            "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://celiabedilia.com",
+            "status_code": null,
+            "error": "[WinError 10061] No connection could be made because the target machine actively refused it"
+        },
+        {
+            "domain": "https://davidloeppke.com",
+            "status_code": 200,
+            "technologies": {
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://wrinkle-pei.cz",
+            "status_code": null,
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'wrinkle-pei.cz'. (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://koniczynka.info.pl",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'"
+                ],
+                "Google Tag Manager": [
+                    "links contains 'googletagmanager.com'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.gstatic.com'"
+                ],
+                "Font Awesome": [
+                    "scripts contains 'kit.fontawesome.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://footasylum.com",
+            "status_code": 200,
+            "technologies": {
+                "Google Tag Manager": [
+                    "links contains 'googletagmanager.com'"
+                ],
+                "Bootstrap": [
+                    "scripts contains 'bootstrap.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ],
+                "jsDelivr": [
+                    "scripts contains 'cdn.jsdelivr.net'",
+                    "links contains 'cdn.jsdelivr.net'"
+                ],
+                "OneTrust": [
+                    "scripts contains 'onetrust.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://2agateway.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'"
+                ],
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ]
+            }
+        },
+        {
+            "domain": "https://ledestjernenstu.dk",
+            "status_code": 455,
+            "error": ""
+        },
+        {
+            "domain": "https://1stlocksheathscouts.org.uk",
+            "status_code": 403,
+            "error": "Forbidden"
+        },
+        {
+            "domain": "https://tamcconstruction.net",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Nginx": [
+                    "headers contains 'server: nginx'"
+                ],
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Jetpack Stats": [
+                    "scripts contains 'stats.wp.com'"
+                ],
+                "Google reCAPTCHA": [
+                    "scripts contains 'www.google.com/recaptcha/'"
+                ]
+            }
+        },
+        {
+            "domain": "https://abbikadabbisbakingco.com",
+            "status_code": 200,
+            "technologies": {
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "Weebly": [
+                    "scripts contains 'editmysite.com'",
+                    "links contains 'editmysite.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://herbalwise.ie",
+            "status_code": 200,
+            "technologies": {
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "Shopify": [
+                    "html contains 'cdn.shopify.com'",
+                    "html contains 'Shopify.theme'",
+                    "scripts contains 'cdn.shopify.com'",
+                    "links contains 'monorail-edge.shopifysvc.com'",
+                    "links contains 'cdn.shopify.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://deepseass.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Google Tag Manager": [
+                    "links contains 'googletagmanager.com'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ]
+            }
+        },
+        {
+            "domain": "https://aardvarkelectriccorp.com",
+            "status_code": null,
+            "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://needaphysio.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'WordPress'"
+                ],
+                "Sentry": [
+                    "scripts contains 'browser.sentry-cdn.com'"
+                ],
+                "Wix": [
+                    "scripts contains 'static.parastorage.com'",
+                    "links contains 'siteassets.parastorage.com'",
+                    "links contains 'static.parastorage.com'",
+                    "links contains 'static.wixstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://thomasrosenbaum.com",
+            "status_code": 200,
+            "technologies": {
+                "Squarespace": [
+                    "scripts contains 'assets.squarespace.com'",
+                    "scripts contains 'definitions.sqspcdn.com'",
+                    "scripts contains 'static1.squarespace.com'",
+                    "links contains 'images.squarespace-cdn.com'",
+                    "links contains 'static1.squarespace.com'",
+                    "links contains 'squarespace-cdn.com'",
+                    "links contains 'assets.squarespace.com'",
+                    "links contains 'definitions.sqspcdn.com'"
+                ],
+                "Adobe Fonts": [
+                    "scripts contains 'use.typekit.net'",
+                    "links contains 'use.typekit.net'",
+                    "links contains 'p.typekit.net'"
+                ]
+            }
+        },
+        {
+            "domain": "https://100wwcstlw.org",
+            "status_code": 200,
+            "technologies": {
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ]
+            }
+        },
+        {
+            "domain": "https://shapirolawfirm.com",
+            "status_code": null,
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://joseph-herber.business.site",
+            "status_code": 404,
+            "error": "Not Found"
+        },
+        {
+            "domain": "https://arol.cl",
+            "status_code": 200,
+            "technologies": {
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ]
+            }
+        },
+        {
+            "domain": "https://sindacatobadanti.it",
+            "status_code": 503,
+            "error": "Service Unavailable"
+        },
+        {
+            "domain": "https://1stclairavewest.com",
+            "status_code": null,
+            "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://lighthouseprc.org",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Google Tag Manager": [
+                    "html contains 'googletagmanager.com/gtm.js'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://5rcircleprocess.weebly.com",
+            "status_code": 200,
+            "technologies": {
+                "Cloudflare": [
+                    "headers contains 'server: cloudflare'",
+                    "headers contains 'cf-ray:'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ],
+                "Weebly": [
+                    "scripts contains 'editmysite.com'",
+                    "links contains 'editmysite.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://unitedveterinaryservice.com",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://construccionesyatecnicas.com",
+            "status_code": null,
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)"
+        },
+        {
+            "domain": "https://joburgheritage.org.za",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-includes'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'",
+                    "links contains 'gmpg.org/xfn/11'"
+                ],
+                "Google Tag Manager": [
+                    "links contains 'googletagmanager.com'"
+                ],
+                "Google Analytics": [
+                    "html contains 'googletagmanager.com/gtag/js'",
+                    "scripts contains 'googletagmanager.com/gtag/js'"
+                ],
+                "Apache": [
+                    "headers contains 'server: Apache'"
+                ],
+                "jQuery": [
+                    "scripts contains 'jquery.min.js'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'",
+                    "links contains 'fonts.gstatic.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://bfnelson.it",
+            "status_code": 200,
+            "technologies": {
+                "WordPress": [
+                    "html contains 'wp-content'",
+                    "html contains 'wp-json'",
+                    "html contains 'WordPress'",
+                    "meta contains 'generator: WordPress'"
+                ],
+                "Google Fonts": [
+                    "links contains 'fonts.googleapis.com'"
+                ],
+                "CookieYes": [
+                    "scripts contains 'cdn-cookieyes.com'"
+                ]
+            }
+        },
+        {
+            "domain": "https://rivithead.com",
+            "status_code": 200,
+            "technologies": {
+                "Apache": [
+                    "headers contains 'server: Apache'"
                 ]
             }
         }

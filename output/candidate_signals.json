@@ -1,0 +1,1448 @@
+[
+    {
+        "signal_type": "scripts",
+        "candidate": "img1.wsimg.com",
+        "occurrences": 10,
+        "domains_count": 4,
+        "sample_domains": [
+            "https://sdmdjentertainment.com",
+            "https://aaice.net",
+            "https://fsbwyoming.com",
+            "https://makpharma-eg.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.google.com",
+        "occurrences": 2,
+        "domains_count": 2,
+        "sample_domains": [
+            "https://mysterion.hr",
+            "https://jobresourcecentre.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "d3e54v103j8qbb.cloudfront.net",
+        "occurrences": 2,
+        "domains_count": 2,
+        "sample_domains": [
+            "https://253media.com",
+            "https://ideenhunger.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "pictures.dealer.com",
+        "occurrences": 6,
+        "domains_count": 2,
+        "sample_domains": [
+            "https://deerfieldbeachautomall.com",
+            "https://huberautomotive.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "translate.google.com",
+        "occurrences": 2,
+        "domains_count": 2,
+        "sample_domains": [
+            "https://11853prospecthill.com",
+            "https://westchesterpointechiro.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "accounts.google.com",
+        "occurrences": 2,
+        "domains_count": 2,
+        "sample_domains": [
+            "https://11853prospecthill.com",
+            "https://weducars.co.za"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "maxcdn.bootstrapcdn.com",
+        "occurrences": 6,
+        "domains_count": 2,
+        "sample_domains": [
+            "https://labdemo.com",
+            "https://restwellstreetmedicalcentre.com.au"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "shop.app",
+        "occurrences": 2,
+        "domains_count": 2,
+        "sample_domains": [
+            "https://unnames.com",
+            "https://herbalwise.ie"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "shop.app",
+        "occurrences": 2,
+        "domains_count": 2,
+        "sample_domains": [
+            "https://unnames.com",
+            "https://herbalwise.ie"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "use.fontawesome.com",
+        "occurrences": 2,
+        "domains_count": 2,
+        "sample_domains": [
+            "https://3dwealthadvisory.com",
+            "https://insieme.stanford.edu"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "img1.wsimg.com",
+        "occurrences": 21,
+        "domains_count": 2,
+        "sample_domains": [
+            "https://makpharma-eg.com",
+            "https://sdmdjentertainment.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "ajax.googleapis.com",
+        "occurrences": 2,
+        "domains_count": 2,
+        "sample_domains": [
+            "https://labdemo.com",
+            "https://rivithead.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "pagead2.googlesyndication.com",
+        "occurrences": 2,
+        "domains_count": 2,
+        "sample_domains": [
+            "https://deepseass.com",
+            "https://arol.cl"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "cdn.evgnet.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "cdn.registerdisney.go.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "cdn.cquotient.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "fonts.twdc.com",
+        "occurrences": 12,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "cdn-ssl.s7.shopdisney.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "cdn.registerdisney.go.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.disneystore.de",
+        "occurrences": 3,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.disneystore.co.uk",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.disneystore.es",
+        "occurrences": 3,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.disneystore.fr",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.disneystore.it",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.disneystore.eu",
+        "occurrences": 25,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.disneystore.com.au",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.disneystore.asia",
+        "occurrences": 6,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "store.disney.co.jp",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "assets.adobedtm.com",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "fast.fonts.net",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://disneystore.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "75559808.dk",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://xn--kleoghvidevareservice-qfc.dk"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "c0.wp.com",
+        "occurrences": 3,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://clotting-guide.online"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "c0.wp.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://clotting-guide.online"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "d2mox62vvl5ob4.cloudfront.net",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://38inspect.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "cdn.printfriendly.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://newbeaverborough.org"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "hpanel.hostinger.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://rsthealthcare.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "myfrbank.com",
+        "occurrences": 41,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://fsbwyoming.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "myfrbank.com",
+        "occurrences": 59,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://fsbwyoming.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "cs3.wettercomassets.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://msc-manching.de"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "cs3.wettercomassets.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://msc-manching.de"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "ajax.googleapis.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://253media.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "app.humblytics.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://253media.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "r2.leadsy.ai",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://253media.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "link.msgsndr.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://253media.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "www.velvety-cosmetics.com",
+        "occurrences": 15,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://velvety.eu"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.velvety-cosmetics.com",
+        "occurrences": 27,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://velvety.eu"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "taxiberan.cz",
+        "occurrences": 3,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://familybroker.cz"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "www.google-analytics.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://genesisny.net"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "ftm.fluencyinc.co",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://huberautomotive.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "images.dealer.com",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://huberautomotive.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "videos.dealer.com",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://huberautomotive.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "cdn.luxurypresence.com",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://11853prospecthill.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "styles.luxurypresence.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://11853prospecthill.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "v0.wordpress.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://dssfla.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "wp.me",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://dssfla.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "healthengine.com.au",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://restwellstreetmedicalcentre.com.au"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "challenges.cloudflare.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://365outsource.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "elfsightcdn.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://hnafirm.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "stackpath.bootstrapcdn.com",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://hnafirm.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "unpkg.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://hnafirm.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "js-na2.hs-scripts.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://aaice.net"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "js-na2.hs-scripts.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://aaice.net"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "platform-api.sharethis.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://westchesterpointechiro.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "fonts.houzz.com",
+        "occurrences": 3,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://premierhomeremodeling.net"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "st.hzcdn.com",
+        "occurrences": 4,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://premierhomeremodeling.net"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "cdn.complyauto.com",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://handycars.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "cdn.userway.org",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://handycars.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "bucket.dealeralchemist.com",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://handycars.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "api.networx.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://alabamabuildingcontractor.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "cdn1.profitmetrics.io",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://nielsbirk.dk"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.karllund.dk",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://nielsbirk.dk"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "connect.facebook.net",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://phucankhanggroup.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "203.sb.mywebsite-editor.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://massageforworldpeace.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "cdn.initial-website.com",
+        "occurrences": 6,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://massageforworldpeace.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "cdn.initial-website.com",
+        "occurrences": 7,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://massageforworldpeace.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "203.mod.mywebsite-editor.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://massageforworldpeace.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "203.sb.mywebsite-editor.com",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://massageforworldpeace.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "salesiq.zohopublic.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://2-com.net"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "order.dish.co",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://hansis-knusperhendl-foodtruck.eatbu.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "cdn.website.dish.co",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://hansis-knusperhendl-foodtruck.eatbu.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costa.co.uk",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costacoffee.jp",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costacoffee.de",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "us.costacoffee.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costaireland.ie",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costacoffee.ae",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costacoffee.mx",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costacoffee.no",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costacoffee.in",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costa-coffee.at",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costacoffee.es",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costacoffee.ro",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.hu.costacoffee.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costacoffee.gr",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costa-coffee.ch",
+        "occurrences": 3,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costacoffee.si",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costacoffee.hr",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.cz.costacoffee.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.sk.costacoffee.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costacoffee.eg",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.bg.costacoffee.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costa-coffee.rs",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.us.costacoffee.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costacoffee.mt",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costacoffee.pk",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.costacoffee.pl",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://costa-coffee.be"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "cdn-ukwest.onetrust.com",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://jackwills.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "cdn.media.amplience.net",
+        "occurrences": 6,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://jackwills.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "webfonts.sakura.ne.jp",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://kande-hoikuen.ed.jp"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "publiccdn.mykpa.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://deerfieldbeachautomall.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www-media.stanford.edu",
+        "occurrences": 15,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://insieme.stanford.edu"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "www.paypal.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://lorenz-baumarkt.de"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "duyn491kcolsw.cloudfront.net",
+        "occurrences": 3,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://domekvefaru.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "duyn491kcolsw.cloudfront.net",
+        "occurrences": 16,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://domekvefaru.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "cdn.trustedsite.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://sdmdjentertainment.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "app.eu.usercentrics.eu",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://ideenhunger.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "sdp.eu.usercentrics.eu",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://ideenhunger.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "code.etracker.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://ideenhunger.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "www.provenexpert.com",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://ideenhunger.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "app.eu.usercentrics.eu",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://ideenhunger.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "sdp.eu.usercentrics.eu",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://ideenhunger.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "config.eu.usercentrics.eu",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://ideenhunger.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "d3e54v103j8qbb.cloudfront.net",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://ideenhunger.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "ds-aksb-a.akamaihd.net",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://elcolegiocongresosyrestaurante.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "cloud.xm-cdn.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://elcolegiocongresosyrestaurante.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "cloud.xm-cdn.com",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://elcolegiocongresosyrestaurante.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "fast.fonts.net",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://powercleaning.services"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "static.ctctcdn.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://hoffmaninstitute.co.uk"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "maps.gstatic.com",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://hoffmaninstitute.co.uk"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "script.hotjar.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://a3sec.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "cdn.branch.io",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://jonesbuickgmc.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "www.mothercare.co.id",
+        "occurrences": 116,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://jonesbuickgmc.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "js.klevu.com",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://jonesbuickgmc.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "maps.google.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://jonesbuickgmc.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.mothercare.co.id",
+        "occurrences": 8,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://jonesbuickgmc.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "bos88pro.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://jonesbuickgmc.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "bos88pro.toke-resmi.mex.com",
+        "occurrences": 10,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://jonesbuickgmc.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "starterlab.xyz",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://jonesbuickgmc.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "js.klevu.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://jonesbuickgmc.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "cdn.pagebooster.net",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://appelpsychotherapy.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "assets-app-production-pubnet.bndzgl.com",
+        "occurrences": 3,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://davidloeppke.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "assets-app-production-pubnet.bndzgl.com",
+        "occurrences": 4,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://davidloeppke.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "euob.7seasky.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://footasylum.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "se.monetate.net",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://footasylum.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "support.footasylum.co.uk",
+        "occurrences": 3,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://footasylum.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "www.dwin1.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://footasylum.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "fa-ecom.s3.eu-west-2.amazonaws.com",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://footasylum.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "cdn.nq-api.net",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://footasylum.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "fa-v4.nq-api.net",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://footasylum.com"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "support.footasylum.co.uk",
+        "occurrences": 3,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://footasylum.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "apps.elfsight.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://tamcconstruction.net"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "fonts.bunny.net",
+        "occurrences": 4,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://tamcconstruction.net"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "static2.zotabox.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://herbalwise.ie"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "pagead2.googlesyndication.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://deepseass.com"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "ihosting.cl",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://arol.cl"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "www.ihosting.cl",
+        "occurrences": 4,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://arol.cl"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "chatinstantly.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://lighthouseprc.org"
+        ]
+    },
+    {
+        "signal_type": "links",
+        "candidate": "chatinstantly.com",
+        "occurrences": 1,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://lighthouseprc.org"
+        ]
+    },
+    {
+        "signal_type": "scripts",
+        "candidate": "unpkg.com",
+        "occurrences": 2,
+        "domains_count": 1,
+        "sample_domains": [
+            "https://bfnelson.it"
+        ]
+    }
+]
